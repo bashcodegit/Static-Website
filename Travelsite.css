@@ -1,0 +1,292 @@
+#theme{
+    width: 100%;
+    height: 900px;
+    background: black;
+    position: relative;
+}
+body{
+    margin: 0;
+}
+#theme-image{
+    width: 100%;
+    height: 900px;
+}
+#girl{
+    width: 100%;
+    height: 900px;
+}
+#header{
+    
+    width: 80%;
+    height: 150px;
+    position: absolute;
+    top: 0px;
+    left: 185px;
+    
+
+}
+.ul-list{
+    display: inline;
+    width: 70%;
+    height: 150px;
+    background: #fff;
+}
+.listing li{
+    display: inline;
+    padding-right: 30px;
+   
+    
+
+}
+
+
+.decor{
+    list-style: none;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    
+}
+.decor:hover{
+    background: #fff;
+}
+.head-label{
+    padding-left: 366px;
+    position: absolute;
+    top: 45px;
+}
+.container{
+    position: relative;
+}
+.head-label{
+    font-size: 40px;
+    font-family: montserrat;
+    font-weight: bold;
+}
+.listing{
+    text-decoration: none;
+    list-style: none;
+    float: right;
+    margin-top: 50px;
+    font-weight: bold;
+}
+#box{
+    width: 600px;
+    height: 500px;
+    
+    position: absolute;
+    top: 361px;
+    left: 148px;
+    
+}
+#third-block{
+    padding-top: 50px;
+    font-weight: bold;
+}
+#explore-button{
+    border-radius: 20%;
+    height: 30x;
+    width: 130px;
+    background: lightgoldenrodyellow;
+    cursor: pointer;
+}
+#explore-button:hover{
+    background: lightcoral;
+}
+#first-block{
+    font-weight: bold;
+    
+}
+.places{
+    width: 1574px;
+    height: 1200px;
+    
+    position: absolute;
+    left: 130px;
+    top: 1000px;
+}
+#text-head{
+    padding-left: 561px;
+    font-size: 50px;
+    font-family: Arial, ui-sans-serif;
+}
+#inner-footer{
+    
+    height: 150px;
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    position: relative;
+}
+#footer{
+    width: 100%;
+    height: 220px;
+    background: black;
+    position: absolute;
+    top: 2250px;
+}
+#label{
+    width: 135px;
+    height: 80px;
+    margin-left: 87px;
+    position: absolute;
+    top: 43px;
+}
+#footer-label{
+    font-size: 49px;
+    font-weight: bold;
+    color: #fff;
+}
+.table{
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    left: 467px;
+    color: #fff;
+}
+.table td{
+    padding: 7px;
+}
+#align-follow{
+    padding-left: 25px;
+    padding-top: 12px;
+    position: absolute;
+    color: #fff;
+    font-weight: bold;
+}
+#follow{
+    width: 140px;
+    height: 100px;
+    position: absolute;
+    left: 1100px;
+    top: 36px;
+}
+#signs{
+    width: 120px;
+    height: 70px;
+
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    
+    
+}
+.fab{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+#signs ul li{
+    display: inline-block;
+    padding: 6px;
+    cursor: pointer;
+}
+#signs ul li:hover{
+    background: lightblue;
+}
+#signs ul{
+    padding-left: 6px;
+}
+.photo{
+    width: 378px;
+    height: 250px;
+    background: black;
+}
+.sec1{
+    width: 378px;
+    height: 490px;
+    
+   
+    
+    
+}
+.align{
+    font-weight: bold;
+    padding-left: 135px;
+}
+.london{
+    width: 378px;
+    height: 250px;
+}
+.disc-button{
+    width: 126px;
+        height: 44px;
+        border-radius: 30%;
+        cursor: pointer;
+        border: 1px solid black;
+        background-color: transparent;
+}
+.disc-button:hover{
+    background: lightgray;
+}
+.para{
+    width: 300px;
+    height: 190px;
+    
+    margin-left: 50px;
+}
+.logo{
+    width: 180px;
+    height: 60px;
+    
+    margin-left: 60px;
+    padding-left: 8px;
+    padding-top: 20px;
+}
+
+.discription{
+    width: 378px;
+    height: 220px;
+    margin-top: 1px;
+
+}
+.section{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-left: 110px;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.slide-frames{
+    overflow: hidden;
+    height: 500px;
+    width: 800px;
+    margin-top: 20px;
+    margin-left: 360px;
+}
+@keyframes slide_animation{
+    0%{left: 0px;}
+    10%{left: 0px;}
+    20%{left: 800px;}
+    30%{left: 800px;}
+    40%{left: 1600px;}
+    50%{left: 1600px;}
+    60%{left: 800px;}
+    70%{left: 800px;}
+    80%{left: 0px;}
+    90%{left: 0px;}
+    100%{left: 0px;}
+}
+.slide-images{
+    width: 3200px;
+    height: 500;
+    margin: 0 0 0  -2400px;
+    position: relative;
+    animation-name: slide_animation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+   animation-direction: alternate;
+}
+.images4{
+    width: 800px;
+    height: 500px;
+    position: relative;
+    float: left;
+}
